@@ -2,5 +2,8 @@
     "python-envs.defaultEnvManager": "ms-python.python:venv",
     "python-envs.defaultPackageManager": "ms-python.python:pip",
     "tailwindCSS.experimental.configFile": "frontend/src/styles/global.css",
-    "workbench.browser.openLocalhostLinks": false
+    "workbench.browser.openLocalhostLinks": false,
+    "chat.tools.terminal.autoApprove": {
+        ".\\.venv\\Scripts\\python.exe": true
+    }
 }
